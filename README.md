@@ -3,4 +3,4 @@
 
 Aplicativo desenvolvido em React Native utilizando o Expo.
 
-Consumo de API, clean code e modularização.
+Consumo de API (https://free.currencyconverterapi.com/free-api-key), clean code e modularização.
