@@ -9,6 +9,7 @@ export default class App extends Component {
     return(
       <View style={styles.container}>
         <Conversor moedaA="USD" moedaB="BRL"/>
+        <Conversor moedaA="EUR" moedaB="BRL"/>
       </View>
     )
   }
