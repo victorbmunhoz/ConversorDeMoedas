@@ -2,24 +2,23 @@ import { StatusBar } from 'expo-status-bar';
 import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+import Conversor from './src/Conversor'
+
 export default class App extends Component {
   render() {
     return(
-      <View>
-        <Text>App</Text>
+      <View style={styles.container}>
+        <Conversor moedaA="USD" moedaB="BRL"/>
       </View>
     )
   }
 }
-  
-
 
 const styles = StyleSheet.create({
-  container:{
-    marginTop: 30
+  container: {
+    flex: 1, 
+    justifyContent: "center",
+    alignItems: "center"
   }
+})
 
-});
-
-
-//https://free.currencyconverterapi.com/api/v5/convert?q=USD_BRL&compact=ultra&apiKey=7b3d67698b2b1506b423
